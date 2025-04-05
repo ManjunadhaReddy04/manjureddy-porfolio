@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": " npx prisma generate"
+    "postinstall":  "postinstall": "npx prisma generate --schema=./path/to/schema.prisma"
   },
   "dependencies": {
     "react": "^19.0.0",
